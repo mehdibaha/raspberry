@@ -22,11 +22,12 @@ To 1) format your SD card, select the SD card volume and choose Erase with MS-DO
 
 Choose Raspbian as it is the default OS pre-installed in NOOBS (also, it's really nice), and install it.
 
+https://piratefache.ch/mount-raspberry-pi-sd-card-on-mac-os/
+
     brew cask install osxfuse
     brew install ext4fuse
     sudo mkdir /Volumes/rpi
     sudo ext4fuse /dev/disk2s2 /Volumes/rpi -o allow_other
-    sudo cp /Volumes/rpi/home/pi/Pictures/* /Users/me/work/raspi/Pix/
 
 #### Wireless access
 
