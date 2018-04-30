@@ -23,6 +23,7 @@ To 1) format your SD card, select the SD card volume and choose Erase with MS-DO
 Choose Raspbian as it is the default OS pre-installed in NOOBS (also, it's really nice), and install it.
 
 https://piratefache.ch/mount-raspberry-pi-sd-card-on-mac-os/
+http://blog.darrenparkinson.uk/2013/10/accessing-raspberry-pi-filesystem-from.html
 
     brew cask install osxfuse
     brew install ext4fuse
