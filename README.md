@@ -2,7 +2,7 @@
 
 This repository stores configuration files, resources and how-tos for setup and use of my Raspberry Model 3.
 
-*Notice: This guide is heavily targeted to macOS users.*
+*Notice: This guide is primarily targeted to macOS users.*
 
 ## First setup
 

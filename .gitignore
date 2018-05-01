@@ -1,2 +1,5 @@
 # ignore heavy resources
 *.zip
+
+# hide secret files
+*.secret
