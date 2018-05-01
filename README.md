@@ -8,45 +8,58 @@ This repository stores configuration files, resources and how-tos for setup and 
 
 New Out Of Box Software (NOOBS) is an easy operating system installation manager for the Raspberry Pi. It is available for download on the [Raspberry Pi website](raspberrypi.org/downloads).
 
-### How to install NOOBS on an SD card
+### Install NOOBS
 
 Once you've downloaded the NOOBS zip file, you'll need to copy the contents to a formatted SD card on your computer:
 
 1. Format your SD card, select the SD card volume and choose Erase with MS-DOS format
 2. Copy the extracted files onto the root directory of the SD card
 
-### First boot
+### Install Raspbian (or other OS)
 
-When you boot the Raspberry Pi for the first time, you're asked to choose an OS.
+When you boot the Raspberry Pi for the first time, NOOBs asks you to choose an OS to install.
 
 We recommend choosing Raspbian as it is the default OS pre-installed in NOOBS (also, it's really nice).
 
+The install should take some time to complete (~15 minutes), and then you should be all set!
+
 ## Configuration
 
-Plug your SD card
+After installation of Raspbian, shutdown the Raspberry, and plug the SD card in your computer.
 
-### Enable WIFI access
+### 1. Enable WIFI access
 
-Fill the following file
+Fill the following file:
 
     sudo nano /Volumes/boot/wpa_supplicant.conf
 
 With the contents:
 
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-    update_config=1
-    country=FR
-
     network={
         ssid="your-wireless-name"
         psk="your-wireless-password"
         key_mgmt=WPA-PSK
-        proto=WPA
     }
 
-### Enable SSH access
+### 2. Enable SSH access
 
-    sudo touch /<sd mount point>/boot/ssh
+Create empty `ssh` file at root of boot folder:
+
+    sudo touch /Volumes/boot/ssh
+
+You can also add raspberry host to your `~/.ssh/config` for convenience:
+
+    Host rasp
+        Hostname raspberrypi.local
+        User pi
+
+#### Passwordless SSH access
+To enable key-based access, first make sure you have a public key stored in your `.ssh` folder (if you don't, generate one), then simply run:
+
+    ssh-copy-id rasp
+
+### 3. Raspberry Pi config
 
 ## License
 
