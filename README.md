@@ -6,7 +6,7 @@ This repository stores configuration files, resources and how-tos for setup and 
 
 ## First setup
 
-New Out Of Box Software (NOOBS) is an operating system installation manager for the Raspberry Pi ([available for download here](raspberrypi.org/downloads)).
+NOOBS is an operating system installation manager for the Raspberry Pi ([available for download here](raspberrypi.org/downloads)).
 
 ### Install NOOBS
 
