@@ -122,7 +122,7 @@ To install the plugin in Kodi, you need to:
 
 1. Run in the terminal: `$ sudo apt-get install kodi-pvr-iptvsimple`
 2. Go to Settings -> Add-ons -> Enabled add-ons -> PVR Clients and select the IPTV Simple Client add-on
-3. Select "Configure"
+3. Select "Configure" and choose the m3u url given by your IPTV provider
 
 ## License
 
