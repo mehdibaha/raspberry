@@ -33,7 +33,7 @@ To add an alias for your raspberry host, add the following config to your `~/.ss
         Hostname raspberrypi.local
         User pi
 
-## Raspberry Pi config
+## Miscellaneous
 
 ### Upgrade dependencies
 
