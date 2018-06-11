@@ -1,7 +1,7 @@
 # raspberry
-This repository stores configuration files, resources and how-tos for setting up and using a Raspberry Pi.
+This repository stores configuration files, resources and how-tos for setting up and using a Raspberry Pi (Model 3).
 
-**This guide is primarily targeted to Rapsberry Pi 3 & macOS users.**
+**This guide is primarily targeted to macOS users.**
 
 ## First setup
 NOOBS is an operating system installation manager for the Raspberry Pi ([available for download here](raspberrypi.org/downloads)).
