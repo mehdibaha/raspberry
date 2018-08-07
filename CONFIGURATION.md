@@ -2,8 +2,6 @@
 
 Configuring your Pi is a key part of insuring it is properly accessible and easily usable.
 
-**This guide requires Raspbian to be installed on your Raspberry Pi.**
-
 ## Enable WIFI access
 Plug the SD card containing your Raspbian install on your computer, and fill the following file:
 
