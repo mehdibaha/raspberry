@@ -17,10 +17,8 @@ Once you've downloaded the NOOBS zip file, you'll need to copy the contents to a
 
 3. Eject the SD card, it's ready for its first boot.
 
-### Install Raspbian (or other OS)
-When you boot the Raspberry Pi for the first time, NOOBs asks you to choose an OS to install.
-
-We recommend choosing Raspbian as it is the default OS pre-installed in NOOBS (also, it's really nice).
+### Install Raspbian
+When you boot the Raspberry Pi for the first time, choose Raspbian as the OS to install (it's pre-installed + really nice).
 
 The install should take some time to complete (~30 minutes), and then you should be all set!
 
