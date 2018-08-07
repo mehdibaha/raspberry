@@ -2,8 +2,6 @@
 
 Kodi is media centre software which runs on Raspberry Pi.
 
-**This guide requires Raspbian to be installed on your Raspberry Pi.**
-
 ## Configuring Your Raspberry Pi for Kodi
 
 Before you install Kodi, you’ll need to ensure your Pi is set up correctly, by setting with `raspi-config`:
