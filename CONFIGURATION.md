@@ -1,6 +1,6 @@
 # Configuration
 
-Configuring correctly your Pi will go a long in insuring it is properly accessible, maintanable, and happy :).
+Configuring your Pi is a key part of insuring it is properly accessible and easily usable.
 
 **This guide requires Raspbian to be installed on your Raspberry Pi.**
 
@@ -61,7 +61,7 @@ For any extra configuration, open the configuration tool by running the followin
     $ sudo raspi-config
 
 ### dotfiles
-To install [personal dotfiles](https://github.com/mehdibaha/dotfiles), do the following
+I also install [my personal dotfiles](https://github.com/mehdibaha/dotfiles), by doing the following
 
     $ git clone https://github.com/mehdibaha/dotfiles .dotfiles
     $ source .dotfiles/install.sh
