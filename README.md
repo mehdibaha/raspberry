@@ -25,10 +25,19 @@ We recommend choosing Raspbian as it is the default OS pre-installed in NOOBS (a
 The install should take some time to complete (~30 minutes), and then you should be all set!
 
 ## Configuration
+Configuring your Pi is a key part of insuring it is properly accessible and easily usable.
+
 For info on how to configurate your Rasperry Pi, [checkout this guide](CONFIGURATION.md).
 
 ## Kodi
+Kodi is media centre software which runs on Raspberry Pi.
+
 For info on how to add Kodi to your Raspberry Pi, [checkout this guide](KODI.md).
+
+## Pi-hole
+Pi-hole is a network-wide ad blocker via the Raspberry Pi.
+
+For info on how to add Pi-hole to your Raspberry Pi, [checkout this guide](PI-HOLE.md).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
