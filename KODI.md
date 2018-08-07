@@ -14,7 +14,7 @@ Before you install Kodi, you’ll need to ensure your Pi is set up correctly, by
 * Setting the Right Desktop Driver (choose Original non-GL desktop driver)
 
 ## Installing Kodi
-To get Kodi running on Raspbian, you'll need to run:
+To install Kodi in Raspbian, you'll need to run:
 
     $ sudo apt-get install kodi -y
 
