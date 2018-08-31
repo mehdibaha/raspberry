@@ -27,53 +27,15 @@ Configuring your Pi is a key part of insuring it is properly accessible and easi
 
 For info on how to configurate your Rasperry Pi, [checkout this guide](CONFIGURATION.md).
 
-#### Remove locale warnings
-To avoid seeing locale warnings on each ssh login, run:
-
-    $ sudo sed -i '/en_US.UTF-8/s/^#//g' /etc/locale.gen # uncomment line with en_US...
-    $ sudo locale-gen # regenerate locale config
-
-#### Securing your Raspberry Pi
-1. Change the default Raspberry Pi password by running from your raspberry:
-
-        $ passwd
-
-2. Enable key-based access, by making sure you have a key stored in your `.ssh` folder, then run (from your host):
-
-        $ ssh-copy-id rasp # or raspberrypi.local if you haven't added the alias
-
-#### raspi-config
-For any extra configuration, open the configuration tool by running the following command:
-
-    $ sudo raspi-config
-
-#### dotfiles
-To install [personal dotfiles](https://github.com/mehdibaha/dotfiles), do the following
-
-    $ git clone https://github.com/mehdibaha/dotfiles .dotfiles
-    $ source .dotfiles/install.sh
-
-### 4. Enable VNC
-VNC is a graphical desktop sharing system used to remotely control another computer. This can be especially useful if certain action demand GUI access to be performed.
-
-1. Open the RealVNC Server configuration interface by clicking on the menu bar icon
-2. On the VNC Server window, click the hamburger menu, and select "Options"
-3. Select "Security" if not already selected and set Authentication to "VNC password"
-4. Set up a "Standard user" with a password of 8 characters or less
-5. Then open "Screen Sharing" on your Mac, and from the "Connection" menu select "New" and type in the IP address of your Pi i.e `raspberrypi.local`
-6. When challenged, enter the password you setup at the Pi in step 4.
-
-## III. Kodi
-
-### 1. Configuring Your Raspberry Pi for Kodi
+## Kodi
 Kodi is media centre software which runs on Raspberry Pi.
 
 For info on how to add Kodi to your Raspberry Pi, [checkout this guide](KODI.md).
 
-## Pi-hole
-Pi-hole is a network-wide ad blocker via the Raspberry Pi.
+## VNC
+VNC is a graphical desktop sharing system used to remotely control another computer.
 
-For info on how to add Pi-hole to your Raspberry Pi, [checkout this guide](PI-HOLE.md).
+For info on how to add VNC to your Raspberry Pi, [checkout this guide](VNC.md).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
